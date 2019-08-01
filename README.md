@@ -45,7 +45,7 @@
 3. npm install -g `create-react-app`
     ```command
     C:\Windows\system32>npm install -g create-react-app
-    C:\Users\DOUZONE_BIT_GJH\AppData\Roaming\npm\create-react-app -> C:\Users\DOUZONE_BIT_GJH\AppData\Roaming\npm\node_modules\create-react-app\index.js
+   (주소,,,)index.js
     + create-react-app@3.0.1
     added 91 packages from 45 contributors in 19.007s
     ```
@@ -54,3 +54,44 @@
     C:\Windows\system32>create-react-app -V
     3.0.1
     ```
+4. 작업 폴더 만들기
+5. 해당 폴더에서 터미널 열기
+    ```command
+    $ create-react-app test01
+    ```
+    ```command
+    Installing packages. This might take a couple of minutes.
+    Installing react, react-dom, and react-scripts...
+
+    .
+    .
+    .
+
+    We suggest that you begin by typing:
+
+   cd test01
+   npm start
+
+    Happy hacking!
+    ```
+6. 해당 폴더에서...
+    ```command
+    cd test01
+
+    npm start
+
+    해당 폴더 경로
+    > react-scripts start
+    ```
+    ```command
+    Starting the development server...
+    Compiled successfully!
+
+    You can now view test01 in the browser.
+
+    http://localhost:3000/
+    
+    Note that the development build is not optimized.
+    To create a production build, use npm run build.
+    ```
+7. 이후에 진행하면서 크롬창 열림.
